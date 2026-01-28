@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+}
+.box{
+    background-color: rgba(128, 128, 128, 0.718);
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+button{
+    margin-right: 10px;
+    font-size:25px;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+}
+h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 800;
+}
+p{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
